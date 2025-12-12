@@ -157,6 +157,8 @@ This project demonstrates a fully functional AWS 3-Tier Architecture built entir
 It is production-ready and follows AWS best practices like:
 
 - private database layers
+- NAT for secure outbound traffic
+- multi-AZ RDS deployment
 
 
 ---
