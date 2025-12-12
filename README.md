@@ -119,22 +119,27 @@ Allows:
 
 # ➤ How to Deploy
 
-1. Initialize Terraform
+1. Clone my git repo
+```
+git clone <git-repo-url>
+```
+
+2. Initialize Terraform
 ```
 terraform init
 ```
 
-2. Validate
+3. Validate
 ```
 terraform validate
 ```
 
-3. Plan
+4. Plan
 ```
 terraform plan
 ```
 
-4. Apply
+5. Apply
 ```
 terraform apply -auto-approve
 ```
